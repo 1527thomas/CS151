@@ -1,0 +1,12 @@
+Your name: Thomas Wang	
+Your student ID: 0113721533	
+Your major: SE
+Your preferred email address: 1527thomas@gmail.com
+Check one: [X ] Undergraduate, [ ] Graduate, [ ] Open university 
+Repeating the class? [ ] Yes, [X ] No
+Place and semester where you took a programming course in Java: SJSU Spring 2017 and Fall 2017
+Course number and grade received: CS46A/CS46B, A, B
+Place and semester where you took a course in data structures: SJSU Spring 2018
+Course number and grade received: WU
+Time it took you to answer the two questions below: 1h 35min
+Did you ask anyone for help? [ ] Yes, [ X] No
