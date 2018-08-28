@@ -1,0 +1,29 @@
+public class Encoding
+{
+  public static Set<String> morseCodes(int m, int n) {
+        Set<String> result = new TreeSet<>();
+
+        if (m == 1 && n <= 0) { //base case where there is only a dot
+            result.add(".");
+            return result;
+        }
+        if (n == 1 && m <= 0) { //base case where there is only a line
+            result.add("-");
+            return result;
+        }
+
+        Set<String> p = new TreeSet<>();
+        if (m >= 1) { //recursion for when there are more than one . for the permutations
+            p = morseCodes(m - 1, n); 
+            for (String str: p)
+                result.add("." + str);
+        }
+        if (n >= 1) { //when there are more than one - for the permutations
+            p = morseCodes(m, n - 1);
+            for (String str: p)
+                result.add("-" + str);
+        }
+
+        return result;
+    }
+}
